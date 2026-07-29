@@ -24,3 +24,52 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.border-draw {
+  position: relative;
+  display: inline-block;
+  color: white;
+}
+
+.border-draw::before,
+.border-draw::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* Top & Bottom */
+.border-draw::before {
+  border-top: 1px solid rgb(156 163 175);   /* white/55 */
+  border-bottom: 1px solid rgb(156 163 175);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.35s ease;
+}
+
+/* Left & Right */
+.border-draw::after {
+  border-left: 1px solid rgb(156 163 175);
+  border-right: 1px solid rgb(156 163 175);
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 0.35s ease 0.35s;
+}
+
+.border-draw:hover::before {
+  transform: scaleX(1);
+}
+
+.border-draw:hover::after {
+  transform: scaleY(1);
+}
+
+/* Reverse animation on mouse leave */
+.border-draw:not(:hover)::after {
+  transition-delay: 0s;
+}
+
+.border-draw:not(:hover)::before {
+  transition-delay: 0.35s;
+}

@@ -6,14 +6,14 @@ import ContentWrapper from './ContentWrapper'
 
 const Navbar = () => {
     return (
-        <nav className="border-b border-b-gray-700 bg-black text-white py-6 w-full">
+        <nav className="sticky top-0 z-50 w-full border-b border-b-white/25 bg-black/90 py-6 text-white backdrop-blur-md">
             <ContentWrapper>
                 <div className="flex flex-row justify-between items-center">
                     <Link href="/">
                         <Image src={Logo} alt="Logo" className="h-10 w-full" />
                     </Link>
 
-                    <Link href="/" className="tracking-tight font-semibold uppercase">
+                    <Link href="/" className="border-draw relative inline-block px-8 py-3 text-sm font-semibold uppercase tracking-tight">
                         Start a Project
                     </Link>
                 </div>
