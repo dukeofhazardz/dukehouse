@@ -15,7 +15,7 @@ const Navbar = () => {
                         <Image src={Logo} alt="Logo" className="h-10 w-full" />
                     </Link>
 
-                    <div className="flex flex-row justify-center items-center gap-5">
+                    <div className="flex flex-row justify-center items-center gap-5 max-lg:hidden">
                         <Link href="#work" className="text-sm text-pretty uppercase tracking-tight text-white/55 hover:text-white transition-all"
                             onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleScroll(e, 'work')}>
                             Work
@@ -34,9 +34,9 @@ const Navbar = () => {
                         </Link>
                     </div>
 
-                    <Link href="#contact" className="border-draw relative inline-block px-8 py-3 text-sm font-semibold uppercase tracking-tight"
+                    <Link href="#contact" className="border-draw relative inline-block px-8 py-3 text-sm font-sans uppercase tracking-widest max-sm:text-xs"
                         onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleScroll(e, 'contact')}>
-                        Start a Project
+                        Start a Project +
                     </Link>
                 </div>
             </ContentWrapper>

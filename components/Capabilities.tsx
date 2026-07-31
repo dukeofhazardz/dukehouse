@@ -6,10 +6,10 @@ const Capabilities = () => {
         <ContentWrapper>
             <div id="capabilities" className="flex flex-col justify-start items-start mt-40 scroll-mt-40">
                 <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">02 / Capabilities</p>
-                <h1 className="uppercase text-5xl">What we build.</h1>
+                <h1 className="uppercase text-5xl max-sm:text-4xl">What we build.</h1>
                 <p className="uppercase text-xs mt-4 text-white/55">Senior product and engineering work across software, AI, cloud and security.</p>
 
-                <div className="grid grid-cols-2 mt-15 bg-white/25 h-fit p-px gap-[0.5px]">
+                <div className="grid grid-cols-2 mt-15 bg-white/25 h-fit p-px gap-[0.5px] max-lg:grid-cols-2 max-md:grid-cols-1">
                     <div className="w-full h-full bg-black p-6 box-border">
                         <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">01</p>
                         <h3 className="uppercase text-2xl">Product engineering</h3>

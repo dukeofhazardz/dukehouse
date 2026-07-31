@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className="w-full border-t border-t-white/10 bg-black/90 py-6 text-white backdrop-blur-md mt-40">
             <ContentWrapper>
                 <div className="flex flex-col">
-                    <div className="flex flex-row justify-between items-start py-10">
+                    <div className="flex flex-row justify-between items-start py-10 max-md:flex-col max-md:gap-10">
                         <div className="flex flex-col justify-start items-start max-w-70">
                             <Link href="/">
                                 <Image src={Logo} alt="Logo" className="h-5 w-full" />

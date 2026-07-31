@@ -7,10 +7,10 @@ const Approach = () => {
     <ContentWrapper>
       <div className="flex flex-col justify-start items-start mt-40">
         <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">05 / Approach</p>
-        <h1 className="uppercase text-5xl">Senior specialists, close to the work.</h1>
+        <h1 className="uppercase text-5xl max-sm:text-3xl">Senior specialists, close to the work.</h1>
         <p className="uppercase text-xs text-pretty text-white/55 mt-4">We keep the process simple and stay involved from definition through operation.</p>
 
-        <div className="grid grid-cols-4 bg-white/25 w-full h-fit p-px gap-[0.5px] mt-15">
+        <div className="grid grid-cols-4 bg-white/25 w-full h-fit p-px gap-[0.5px] mt-15 max-md:grid-cols-1">
           <div className="flex flex-col justify-start items-start w-full h-full bg-black p-5">
             <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">01</p>
             <h1 className="text-3xl font-sans uppercase mb-3 tracking-tight">Understand</h1>

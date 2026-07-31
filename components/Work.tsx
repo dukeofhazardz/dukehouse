@@ -81,7 +81,7 @@ const Work = () => {
                 <h1 className="uppercase tefxt-5xl">Selected work.</h1>
                 <p className="uppercase text-xs mt-4 text-white/55">Platforms for sports, commerce, energy, finance, education and public infrastructure.</p>
 
-                <div className="grid grid-cols-3 gap-3 mt-15">
+                <div className="grid grid-cols-3 gap-3 mt-15 max-lg:grid-cols-2 max-md:grid-cols-1">
                     {selectedWorks.length > 0 ? (
                         selectedWorks.map((work, idx) => (
                             <div key={idx} className="flex flex-col justify-start items-start w-full h-full box-border border-[0.5px] border-white/25 hover:border-white/55 transition-all">

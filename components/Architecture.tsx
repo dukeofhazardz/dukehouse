@@ -7,10 +7,10 @@ const Architecture = () => {
         <ContentWrapper>
             <div id="architecture" className="flex flex-col justify-start items-start mt-40 scroll-mt-40">
                 <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">03 / Architecture</p>
-                <h1 className="uppercase text-5xl">The stack follows the operation.</h1>
+                <h1 className="uppercase text-5xl max-sm:text-3xl">The stack follows the operation.</h1>
 
-                <div className="flex flex-row gap-20">
-                    <div className="flex flex-col mt-10 w-1/2">
+                <div className="flex flex-row gap-20 max-md:flex-col">
+                    <div className="flex flex-col mt-10 w-1/2: max-md:w-full">
                         <p className="uppercase text-xs text-pretty text-white/55">We choose platforms and data technologies around traffic, security, compliance, team capabilities and cost, not vendor preference.</p>
 
                         <div className="flex flex-wrap gap-x-5 gap-y-2 mt-10">
@@ -35,7 +35,7 @@ const Architecture = () => {
                         <p className="mt-10 text-sm text-pretty text-white/55">Vercel and Supabase are part of a broader practice across cloud, application and data platforms.</p>
                         <Link href="mailto:hello@dukehouse.tech?subject=Architecture%20Discussion" className="mt-10 uppercase text-sm font-sans tracking-[0.2em] text-white">Discuss your architecture →</Link>
                     </div>
-                    <div className="grid grid-cols-3 mt-10 box-border gap-10 min-w-80 w-1/2">
+                    <div className="grid grid-cols-3 mt-10 box-border gap-10 min-w-80 w-1/2 max-md:w-full max-sm:grid-cols-1">
                         <div>
                             <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-[0.2em] mb-4">01 / Cloud</p>
                             <p className="text-sm mt-4 text-white/55">AWS</p>

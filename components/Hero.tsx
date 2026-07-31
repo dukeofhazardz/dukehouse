@@ -23,14 +23,14 @@ const Hero = () => {
             <div className="relative z-10 flex h-full items-center justify-start text-start text-white">
                 <ContentWrapper>
                     <div className="max-w-4xl">
-                        <h1 className="text-7xl font-bold tracking-tight uppercase">
+                        <h1 className="text-7xl font-bold tracking-tight uppercase max-lg:text-5xl max-sm:text-3xl">
                             We turn your Vision into Systems.
                         </h1>
 
-                        <p className="mt-6 text-sm uppercase tracking-tighter text-white/55">
+                        <p className="mt-6 text-sm uppercase tracking-tighter text-white/55 max-md:text-xs">
                             We design and build digital products, AI systems and cloud systems without compromise — from idea to launch, we help you every step of the way.
                         </p>
-                        <div className="flex items-center mt-6 gap-5">
+                        <div className="flex mt-6 gap-5 max-sm:flex-col max-sm:items-start">
                             <button onClick={(e: React.MouseEvent<HTMLButtonElement>) => handleScrollButton(e, 'work')} className="text-black uppercase tracking-[0.2em] text-xs font-sans bg-white py-5 px-10 cursor-pointer hover:bg-white/75 transition-all">View Our Work +</button>
                             <button onClick={(e: React.MouseEvent<HTMLButtonElement>) => handleScrollButton(e, 'contact')} className="text-white uppercase tracking-[0.2em] text-xs font-sans bg-none py-5 px-10 border border-white/55 cursor-pointer hover:border-gray-100 transition-all">Start a Project +</button>
                         </div>

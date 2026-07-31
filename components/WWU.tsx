@@ -6,10 +6,10 @@ const WWU = () => {
     <ContentWrapper>
       <div id="working-with-us" className="flex flex-col justify-start items-start mt-40 scroll-mt-40">
         <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">07 / Working with DUKEHOUSE</p>
-        <h1 className="uppercase text-5xl">What clients usually ask.</h1>
+        <h1 className="uppercase text-5xl max-sm:text-3xl">What clients usually ask.</h1>
         <p className="uppercase text-xs text-pretty text-white/55 mt-4">We keep the process simple and stay involved from definition through operation.</p>
 
-        <div className="grid grid-cols-2 bg-white/25 w-full h-fit p-px gap-[0.5px] mt-15">
+        <div className="grid grid-cols-2 bg-white/25 w-full h-fit p-px gap-[0.5px] mt-15 max-md:grid-cols-1">
           <div className="flex flex-col justify-start items-start w-full h-full bg-black p-5">
             <h1 className="text-[21px] font-sans mb-3 tracking-tight">Can DUKEHOUSE work on an existing product?</h1>
             <p className="text-white/55 text-sm text-pretty">Yes. We review the codebase, infrastructure and data model, then define what should be fixed, modernized or rebuilt first.</p>
