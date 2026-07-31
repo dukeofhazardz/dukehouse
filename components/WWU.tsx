@@ -4,7 +4,7 @@ import ContentWrapper from './ContentWrapper'
 const WWU = () => {
   return (
     <ContentWrapper>
-      <div className="flex flex-col justify-start items-start mt-40">
+      <div id="working-with-us" className="flex flex-col justify-start items-start mt-40 scroll-mt-40">
         <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">07 / Working with DUKEHOUSE</p>
         <h1 className="uppercase text-5xl">What clients usually ask.</h1>
         <p className="uppercase text-xs text-pretty text-white/55 mt-4">We keep the process simple and stay involved from definition through operation.</p>

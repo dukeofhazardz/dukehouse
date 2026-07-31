@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Architecture = () => {
     return (
         <ContentWrapper>
-            <div className="flex flex-col justify-start items-start mt-40">
+            <div id="architecture" className="flex flex-col justify-start items-start mt-40 scroll-mt-40">
                 <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">03 / Architecture</p>
                 <h1 className="uppercase text-5xl">The stack follows the operation.</h1>
 
@@ -33,7 +33,7 @@ const Architecture = () => {
 
                         <p className="mt-10 text-sm text-pretty text-white/55">Serverless for variable demand. Containers for dedicated workloads. Managed platforms when speed and simpler operations matter.</p>
                         <p className="mt-10 text-sm text-pretty text-white/55">Vercel and Supabase are part of a broader practice across cloud, application and data platforms.</p>
-                        <Link href="#" className="mt-10 uppercase text-sm font-sans tracking-[0.2em] text-white">Discuss your architecture →</Link>
+                        <Link href="mailto:hello@dukehouse.tech?subject=Architecture%20Discussion" className="mt-10 uppercase text-sm font-sans tracking-[0.2em] text-white">Discuss your architecture →</Link>
                     </div>
                     <div className="grid grid-cols-3 mt-10 box-border gap-10 min-w-80 w-1/2">
                         <div>

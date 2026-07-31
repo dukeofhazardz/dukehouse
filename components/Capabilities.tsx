@@ -4,7 +4,7 @@ import ContentWrapper from './ContentWrapper'
 const Capabilities = () => {
   return (
         <ContentWrapper>
-            <div className="flex flex-col justify-start items-start mt-40">
+            <div id="capabilities" className="flex flex-col justify-start items-start mt-40 scroll-mt-40">
                 <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">02 / Capabilities</p>
                 <h1 className="uppercase text-5xl">What we build.</h1>
                 <p className="uppercase text-xs mt-4 text-white/55">Senior product and engineering work across software, AI, cloud and security.</p>

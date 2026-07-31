@@ -1,8 +1,10 @@
+"use client"
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Logo from '@/public/Logo.svg'
 import ContentWrapper from './ContentWrapper'
+import { handleScroll } from './lib/scroll'
 
 const Footer = () => {
     return (
@@ -18,22 +20,28 @@ const Footer = () => {
                                 cloud architecture and security reviews.</p>
                         </div>
                         <div className="flex flex-col">
-                            <Link href="#" className="text-white/55 text-sm mb-1">
+                            <Link href="#work" className="text-white/55 text-sm mb-1"
+                                onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleScroll(e, 'work')}>
                                 Work
                             </Link>
-                            <Link href="#" className="text-white/55 text-sm mb-1">
+                            <Link href="#capabilities" className="text-white/55 text-sm mb-1"
+                                onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleScroll(e, 'capabilities')}>
                                 Capabilities
                             </Link>
-                            <Link href="#" className="text-white/55 text-sm mb-1">
+                            <Link href="#architecture" className="text-white/55 text-sm mb-1"
+                                onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleScroll(e, 'architecture')}>
                                 Architecture
                             </Link>
-                            <Link href="#" className="text-white/55 text-sm mb-1">
+                            <Link href="#about" className="text-white/55 text-sm mb-1"
+                                onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleScroll(e, 'about')}>
                                 About
                             </Link>
-                            <Link href="#" className="text-white/55 text-sm mb-1">
+                            <Link href="#working-with-us" className="text-white/55 text-sm mb-1"
+                                onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleScroll(e, 'working-with-us')}>
                                 Working with DUKEHOUSE
                             </Link>
-                            <Link href="#" className="text-white/55 text-sm mb-1">
+                            <Link href="#contact" className="text-white/55 text-sm mb-1"
+                                onClick={(e: React.MouseEvent<HTMLAnchorElement>) => handleScroll(e, 'contact')}>
                                 Contact
                             </Link>
                         </div>

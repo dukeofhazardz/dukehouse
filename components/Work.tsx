@@ -76,7 +76,7 @@ export const selectedWorks = [
 const Work = () => {
     return (
         <ContentWrapper>
-            <div className="flex flex-col justify-start items-start mt-40">
+            <div id="work" className="flex flex-col justify-start items-start mt-40 scroll-mt-40">
                 <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">01 / Selected Work</p>
                 <h1 className="uppercase tefxt-5xl">Selected work.</h1>
                 <p className="uppercase text-xs mt-4 text-white/55">Platforms for sports, commerce, energy, finance, education and public infrastructure.</p>

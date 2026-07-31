@@ -4,7 +4,7 @@ import ContentWrapper from './ContentWrapper'
 const About = () => {
     return (
         <ContentWrapper>
-            <div className="flex flex-col justify-start items-start mt-40">
+            <div id="about" className="flex flex-col justify-start items-start mt-40 scroll-mt-40">
                 <p className="text-[10px] font-bold text-pretty text-white/55 uppercase tracking-widest mb-4">05 / About</p>
                 <h1 className="uppercase text-5xl">Built close to the work.</h1>
 

@@ -1,6 +1,5 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import ContentWrapper from "@/components/ContentWrapper";
 import Hero from "@/components/Hero";
 import Stats from "@/components/Stats";
 import Work from "@/components/Work";
